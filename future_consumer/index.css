@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cerebri Sans', sans-serif;
+}
+.main-header{
+    height: 130px;
+    width: 100%;
+    
+
+    display: flex;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+}
+.main-header-a{
+    height: 130px;
+    width:15%;
+    /* background-color: aquamarine; */
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.main-header-b{
+    height: 130px;
+    width:60%;
+    /* background-color: blue; */
+    text-decoration: none;
+    cursor: pointer;
+    color: #2D323D;
+}
+.main-header-b ul{
+    display: flex;
+    list-style: none;
+
+}
+.main-header ul li{
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.main-header-c{
+    height: 130px;
+    width:25%;
+    /* background-color:bisque; */
+    position: relative;
+    cursor: pointer;
+    
+}
+.fa{
+    margin-left: 20px;
+    margin-top: 43px;
+}
+.text{
+    position: absolute;
+    top:44px;
+    left:200px;
+    color: orange;
+}
+.vdo-content{
+    height: 430px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.content{
+    height:50px;
+    width:100%;
+    /* background-color:blueviolet; */
+    /* padding-left: 500px; */
+    text-align: center;
+    
+
+}
+.section{
+    height: 360px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content:space-evenly
+
+}
+.section1{
+    height: 360px;
+    width:25%;
+    /* background-color: aqua; */
+    text-align: center;
+
+}
+.section2{
+    height: 360px;
+    width:25%;
+    /* background-color: brown; */
+    text-align: center;
+    
+}
+.section3{
+    height: 360px;
+    width:25%;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    
+}
+.image-section1{
+    height:50%;
+    width:100%;
+    background-color:yellow;
+
+}
+.section.content1{
+    height: 50%;
+    width:100%;
+    /* background-color: blue; */
+    
+}
+.section4{
+    height: 70px;
+    width:100%;
+    background-color:white;
+    /* padding-left: 40%; */
+    /* padding-right:40% ; */
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.section4-para{
+    height: 250px;
+    width: 60%;
+    /* background-color: blueviolet; */
+    margin-left: 25%;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #2D323D;
+    letter-spacing: 1.5px;
+
+
+}
+.image-sectioncontent{
+    height: 300px;
+    width:100%;
+    /* background-color:brown; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    
+    
+}
+.image-sectioncontent1{
+    height: 220px;
+    width: 15%;
+    /* background-color: aqua; */
+    
+}
+.img-text{
+    color:#F47A20;
+    margin-left: 45px;
+    margin-top: 18px;
+}
+.section-horizontal
+{
+    height: 220px;
+    width:100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    /* margin-left: 30px;
+    margin-top: 30px; */
+}
+.section-horizontal1{
+    height: 200px;
+    width: 25%;
+    background-color:white; 
+    color:#F47A20;
+    padding-left: 100px;
+    /* padding-top: 15px; */
+
+
+}
+.section-contentbottom{
+    height: 400px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* margin-top: 40px; */
+}
+.section-contentbottom1{
+    height: 400px;
+    width: 50%;
+    /* background-color: #F47A20; */
+    
+
+}
+.section-contentbottom2{
+    height: 400px;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.section-contentbottom1 h1,.section-contentbottom1 p{
+    padding-top: 60px;
+    padding-left: 222px;
+    
+
+}
+.footer-top1{
+    height: 60px;
+    width: 100%;
+    background-color: #FAFAFA;
+    /* padding-left: 40%; */
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.brands{
+    height: 140px;
+    width: 100%;
+    /* margin-left: 20%; */
+    margin-right: 20%;
+
+    /* background-color:yellow; */
+
+    
+
+}
+ .footer{
+    height:150px;
+    width: 100%;
+    background-color:#2D323D;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+
+}
+.f-aboutus{
+    height: 100px;
+    width: 15%;
+    /* background-color:green; */
+
+
+
+}  
+.f-aboutus p{
+    color: #F47A20;
+}
+.f-aboutus ul
+{
+    list-style:none;
+}
+.f-aboutus ul li{
+    margin-top: 3px;
+}
+.f-aboutus h4{
+    color: #F47A20;
+}
+.copy-write{
+    height: 25px;
+    width: 100%;
+    background-color: #212121;
+    color: #6D7378;
+}
+.copy-write p{
+    margin-left: 140px;
+}
+.copy-write span{
+    color: #F47A20;
+}
+.content span{
+    color: #F47A20 ;
+}
